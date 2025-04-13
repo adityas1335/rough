@@ -1,0 +1,19 @@
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+    at createFiberFromTypeAndProps (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:13159:28)
+    at createFiberFromElement (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:13173:14)
+    at createChild (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:6847:26)
+    at reconcileChildrenArray (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:7179:25)
+    at reconcileChildFibersImpl (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:7502:30)
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:7607:33)
+    at reconcileChildren (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:8048:13)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:10216:13)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:1511:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15120:22)
+    at workLoopSync (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14944:41)
+    at renderRootSync (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14924:11)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14454:44)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16275:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+    at Home (rsc://React/Server/webpack-internal:///(rsc)/./app/page.tsx?11:30:88)
